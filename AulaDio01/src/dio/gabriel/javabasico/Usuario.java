@@ -24,9 +24,12 @@ public class Usuario {
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
+
+
         System.out.println("Diminuindo o volume da SmartTv..." + smartTv.volume);
 
         smartTv.mudarCanal(13);
+
         System.out.println("Novo canal da TV é:" + smartTv.canal);
 
         smartTv.diminuirCanal();
@@ -35,3 +38,6 @@ public class Usuario {
 
 
 }
+//public acessa de qualquer classe
+//private acesso apenas de dentro da classe
+//protected acesso por herança
